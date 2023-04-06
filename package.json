@@ -1,0 +1,28 @@
+{
+  "name": "repo-loader",
+  "version": "0.0.1",
+  "description": "Reads code from files in a repository and outputs their content into a single text file.  To be used with LLMs, GPT-X, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "repository",
+    "output",
+    "GPT-3",
+    "GPT-4",
+    "LLM"
+  ],
+  "bin": {
+    "repo-loader": "./cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "minimist": "^1.2.8",
+    "path": "^0.12.7"
+  }
+}
