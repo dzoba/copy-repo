@@ -37,8 +37,8 @@ function readJSFiles(repoPath, outputPath, config) {
       outputData.push(
         ...files.map((file) => {
           const content = fs.readFileSync(file, 'utf8');
-          const filename = path.basename(file);
-          return `*** ${filename} ***\n${content}\n`;
+          const filepath = path.relative(repoPath, file);
+          return `*** ${filepath} ***\n${content}\n`;
         }),
       );
 
