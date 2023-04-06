@@ -7,14 +7,14 @@ Repo Loader is a command-line tool that reads code from files in a JavaScript re
 To install Repo Loader globally, run the following command:
 
 ```sh
-$ npm install -g repo-loader
+$ npm install -g copy-repo
 ```
 
 ## Usage
-After installing, you can use the repo-loader command:
+After installing, you can use the copy-repo command:
 
 ```
-$ repo-loader <repository_path> <output_file_path> [-c /path/to/config.json]
+$ copy-repo <repository_path> <output_file_path> [-c /path/to/config.json]
 ```
 
 
@@ -41,12 +41,12 @@ Repo Loader supports a configuration file in JSON format. By default, it include
 To run Repo Loader on a sample JavaScript repository and output the code to a file called output.txt, you can use the following command:
 
 ```
-$ repo-loader /path/to/js/repo /path/to/output.txt
+$ copy-repo /path/to/js/repo /path/to/output.txt
 ```
 
 If you have a custom configuration file, you can specify it using the -c option:
 ```
-$ repo-loader /path/to/js/repo /path/to/output.txt -c /path/to/config.json
+$ copy-repo /path/to/js/repo /path/to/output.txt -c /path/to/config.json
 ```
 
 ## License

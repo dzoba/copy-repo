@@ -14,7 +14,7 @@ const options = minimist(process.argv.slice(2), {
 });
 
 if (options._.length !== 2) {
-  console.error('Usage: repo-loader <repository_path> <output_file_path> [-c /path/to/config.json]');
+  console.error('Usage: copy-repo <repository_path> <output_file_path> [-c /path/to/config.json]');
   process.exit(1);
 }
 
