@@ -22,7 +22,7 @@ const [repoPath, outputPath] = options._;
 const configPath = options.config;
 
 let config = {
-  include: ['**/*.js'],
+  include: ['**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx'],
   exclude: ['node_modules/**'],
 };
 

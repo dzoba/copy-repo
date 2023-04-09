@@ -1,6 +1,6 @@
 {
   "name": "copy-repo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Reads code from files in a repository and outputs their content into a single text file.  To be used with LLMs, GPT-X, etc",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "copy-repo": "./cli.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fs": "^0.0.1-security",
     "glob": "^7.2.0",
